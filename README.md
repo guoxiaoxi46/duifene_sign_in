@@ -1,3 +1,4 @@
+# 本项目在开发过程中参考并借鉴了仓库 https://github.com/liuzhijie443/duifene_auto_sign 的部分实现与思路，特此致谢。
 # duidenyi
 
 对分易自动签到工具（桌面 GUI）。
