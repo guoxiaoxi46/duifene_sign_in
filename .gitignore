@@ -2,3 +2,6 @@
 __pycache__/
 duifenyi.ini
 *.pyc
+build/
+dist/
+*.spec

@@ -394,8 +394,10 @@ def init():
 
 if __name__ == '__main__':
     host = "https://www.duifene.com"
-    UA = 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) '
-         'Mobile/15E148 MicroMessenger/8.0.40(0x1800282a) NetType/WIFI Language/zh_CN '
+    UA = (
+        'Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) '
+        'Mobile/15E148 MicroMessenger/8.0.40(0x1800282a) NetType/WIFI Language/zh_CN '
+    )
     urllib3.disable_warnings()
     x = requests.Session()
     x.headers['User-Agent'] = UA
