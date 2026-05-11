@@ -1,0 +1,4 @@
+[INFO]
+# 复制并重命名为 duifenyi.ini，在里面填入你的 cookie，例如：
+# cookie=ASP.NET_SessionId=xxxxx; another=yyyyy
+cookie=1=1
